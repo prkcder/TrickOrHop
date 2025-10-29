@@ -1,0 +1,68 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "Trick or Hop",
+    "description": "This scene is based on the Spooky House Template",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": ""
+  },
+  "owner": "",
+  "contact": {
+    "name": "",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [
+    "art",
+    "social"
+  ],
+  "scene": {
+    "parcels": [
+      "0,1",
+      "1,1",
+      "0,0",
+      "1,0"
+    ],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "Spawn Point 1",
+      "default": true,
+      "position": {
+        "x": [
+          26,
+          28
+        ],
+        "y": [
+          0,
+          0
+        ],
+        "z": [
+          0,
+          1
+        ]
+      },
+      "cameraTarget": {
+        "x": 28,
+        "y": 3,
+        "z": 8
+      }
+    }
+  ],
+  "requiredPermissions": [
+    "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
+  "featureToggles": {
+    "voiceChat": "enabled",
+    "portableExperiences": "enabled"
+  },
+  "skyboxConfig": {},
+  "source": {
+    "origin": "creator-hub",
+    "projectId": "a5f4f4f1-581f-4ed6-ad7d-1d70aa8859e2"
+  },
+  "rating": "T"
+}
